@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>
+      Frontend Mentor - Razaul | Shortly URL shortening API Challenge
+    </title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header d-flex">
+      <img src="./images/logo.svg" alt="logo" />
+      <div class="flex-row">
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#" class="nav__link link"> Features</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link link"> Pricing</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link link"> Resources</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#" class="nav__link link">Login</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link link btn-fill btn-sign-up">Sign Up</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section class="section-hero d-flex">
+        <div class="hero__text-box">
+          <h1 class="heading-primary">More than just shorter links</h1>
+          <p class="heading-text">
+            Build your brand’s recognition and get detailed insights on how your
+            links are performing.
+          </p>
+          <a href="#" class="link btn btn-fill">Get Started </a>
+        </div>
+        <div class="hero__img-box">
+          <img src="./images/illustration-working.svg" alt="hero image" />
+        </div>
+      </section>
+      <section class="section-url">
+        <input
+          type="text"
+          class="url__input"
+          placeholder="Shorten a link here..."
+          required
+        />
+        <span class="url__submit btn-fill">Shorten Url</span>
+      </section>
+      <section class="section__stat">
+        <div class="text-center">
+          <h2 class="heading-secondary">Advanced Statistics</h2>
+          <p class="heading-text">
+            Track how your links are performing across the web with our advanced
+            statistics dashboard.
+          </p>
+        </div>
+        <div class="stat__box-container d-flex">
+          <div class="stat__box">
+            <img
+              src="./images/icon-brand-recognition.svg"
+              alt="features icon"
+            />
+            <h3 class="heading-tertiary">Brand Recognition</h3>
+            <p class="heading-text">
+              Boost your brand recognition with each click. Generic links don’t
+              mean a thing. Branded links help instil confidence in your
+              content.
+            </p>
+          </div>
+          <div class="stat__box">
+            <img src="./images/icon-detailed-records.svg" alt="features icon" />
+            <h3 class="heading-tertiary">Detailed Records</h3>
+            <p class="heading-text">
+              Gain insights into who is clicking your links. Knowing when and
+              where people engage with your content helps inform better
+              decisions.
+            </p>
+          </div>
+          <div class="stat__box">
+            <img
+              src="./images/icon-fully-customizable.svg"
+              alt="features icon"
+            />
+            <h3 class="heading-tertiary">Fully Customizable</h3>
+            <p class="heading-text">
+              Improve brand awareness and content discoverability through
+              customizable links, supercharging audience engagement.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="section-subscribe text-center">
+        <h2 class="heading-secondary">Boost your links today</h2>
+        <a href="#" class="link btn-fill">Get Started</a>
+      </section>
+    </main>
+    <footer class="footer d-flex">
+      <img src="./images/logo.svg" alt="logo" />
+      <div>
+        <p class="footer__nav-head">Features</p>
+        <ul class="footer__nav">
+          <li class="footer__nav-item">
+            <a href="#" class="link footer__nav-link">Link Shortening</a>
+          </li>
+          <li class="footer__nav-item">
+            <a href="#" class="link footer__nav-link">Branded Link</a>
+          </li>
+          <li class="footer__nav-item">
+            <a href="#" class="link footer__nav-link">Analytics</a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer__nav-head">Resources</p>
+        <ul class="footer__nav">
+          <li class="footer__nav-item">
+            <a href="#" class="link footer__nav-link">Blogs</a>
+          </li>
+          <li class="footer__nav-item">
+            <a href="#" class="link footer__nav-link">Developer</a>
+          </li>
+          <li class="footer__nav-item">
+            <a href="#" class="link footer__nav-link">Support</a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer__nav-head">Company</p>
+        <ul class="footer__nav">
+          <li class="footer__nav-item">
+            <a href="#" class="link footer__nav-link">About</a>
+          </li>
+          <li class="footer__nav-item">
+            <a href="#" class="link footer__nav-link">Our Team</a>
+          </li>
+          <li class="footer__nav-item">
+            <a href="#" class="link footer__nav-link">Careers</a>
+          </li>
+          <li class="footer__nav-item">
+            <a href="#" class="link footer__nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <div class="icons d-flex">
+          <img src="./images/icon-facebook.svg" alt="icon" />
+          <img src="./images/icon-instagram.svg" alt="icon" />
+          <img src="./images/icon-pinterest.svg" alt="icon" />
+          <img src="./images/icon-twitter.svg" alt="icon" />
+        </div>
+        <div class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by <a href="#">Razaul</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
